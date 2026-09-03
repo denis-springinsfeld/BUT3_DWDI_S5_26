@@ -40,7 +40,7 @@ Pour chaque fonctionnalité, indiquez vos sources (documentation officielle, spe
 
 #### 2. Réalisation de la page web
 
-La page doit être **codée en HTML / CSS / JS vanilla** (pas de framework imposé, mais justifiez si vous en utilisez un) et contenir :
+La page doit être **codée en HTML / CSS / JS**
 
 1. **Une page d'accueil / sommaire** avec navigation vers chaque fiche fonctionnalité (ancre ou menu).
 2. **Une fiche par fonctionnalité**, structurée ainsi :
@@ -63,26 +63,23 @@ La page doit être **codée en HTML / CSS / JS vanilla** (pas de framework impos
 
 ### Modalités
 
-- **Travail** : individuel ou en binôme (à préciser par l'enseignant).
-- **Durée indicative** : 2 à 3 séances de TP + travail personnel.
+- **Travail** : individuel ou en binôme.
+- **Durée indicative** : 2 séances de TP + travail personnel.
 - **Format de rendu** : dépôt du lien du repo + lien de la page en ligne sur la plateforme du cours.
 
 ---
 
 ### Grille d'évaluation indicative
 
-| Critère                                                             | Points                 |
-| ------------------------------------------------------------------- | ---------------------- |
-| Pertinence et diversité des fonctionnalités choisies (≥10, variées) | 4                      |
-| Qualité des explications (clarté, justesse technique)               | 4                      |
-| Démos fonctionnelles et code exemple propre                         | 4                      |
-| Tableaux de compatibilité navigateurs (exactitude, sourcing)        | 3                      |
-| Gestion des fallbacks / `@supports`                                 | 3                      |
-| Qualité du HTML/CSS (sémantique, responsive, accessibilité)         | 3                      |
-| Bonus : filtre/recherche JS, design soigné, originalité             | +3                     |
-| **Total**                                                           | **/21** (bonus inclus) |
+Critère
 
----
+- Pertinence et diversité des fonctionnalités choisies (≥10, variées)
+- Qualité des explications (clarté, justesse technique)
+- Démos fonctionnelles et code exemple propre
+- Tableaux de compatibilité navigateurs (exactitude, sourcing)
+- Gestion des fallbacks / `@supports`
+- Qualité du HTML/CSS (sémantique, responsive, accessibilité)
+- Bonus : filtre/recherche JS, design soigné, originalité
 
 ### Pour bien démarrer
 
@@ -92,3 +89,4 @@ La page doit être **codée en HTML / CSS / JS vanilla** (pas de framework impos
 - [web.dev — CSS](https://web.dev/learn/css)
 - Baseline (indicateur de support consolidé multi-navigateurs) sur MDN
 - [https://2026.stateofcss.com/en-US/](State of CSS 2026) — pour voir les tendances et l'adoption des nouvelles fonctionnalités.
+- web ...
