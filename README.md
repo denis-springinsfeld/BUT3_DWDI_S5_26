@@ -23,7 +23,7 @@ Votre mission : **construire une page web de référence** ("cheat sheet" intera
 
 #### 1. Recherche (veille)
 
-Recensez **au minimum 10 fonctionnalités CSS récentes** (grosso modo post-2022). Quelques pistes pour démarrer votre veille — libre à vous d'en trouver d'autres :
+Recensez **au minimum 10 fonctionnalités CSS récentes et méconnues**. Quelques pistes pour démarrer votre veille — à vous de trouver les plus pertinentes et intéressantes :
 
 | Thème                   | Exemples de pistes                                                                     |
 | ----------------------- | -------------------------------------------------------------------------------------- |
@@ -32,7 +32,7 @@ Recensez **au minimum 10 fonctionnalités CSS récentes** (grosso modo post-2022
 | Architecture CSS        | Cascade Layers (`@layer`), imbrication native (nesting), `@scope`                      |
 | Animation & interaction | Scroll-driven animations, `@starting-style`, transitions de vue (View Transitions API) |
 | Positionnement          | Anchor Positioning (`anchor()`, `position-anchor`)                                     |
-| Unités & fonctions      | `clamp()`, unités `dvh`/`svh`/`lvh`, `min()`/`max()`                                   |
+| Unités & fonctions      | unités `dvh`/`svh`/`lvh``                                                              |
 | Sélecteurs              | `:is()`, `:where()`, `:has()`, sélecteurs de sous-grille                               |
 | ...                     | ...                                                                                    |
 
