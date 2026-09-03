@@ -25,16 +25,16 @@ Votre mission : **construire une page web de référence** ("cheat sheet" intera
 
 Recensez **au minimum 10 fonctionnalités CSS récentes et méconnues**. Quelques pistes pour démarrer votre veille — à vous de trouver les plus pertinentes et intéressantes :
 
-| Thème                   | Exemples de pistes                                                                     |
-| ----------------------- | -------------------------------------------------------------------------------------- |
-| Mise en page            | Container Queries (`@container`), Subgrid, `:has()`, `text-wrap: balance`              |
-| Couleurs & thèmes       | `color-mix()`, espaces colorimétriques (`oklch`, `lab`), `light-dark()`                |
-| Architecture CSS        | Cascade Layers (`@layer`), imbrication native (nesting), `@scope`                      |
-| Animation & interaction | Scroll-driven animations, `@starting-style`, transitions de vue (View Transitions API) |
-| Positionnement          | Anchor Positioning (`anchor()`, `position-anchor`)                                     |
-| Unités & fonctions      | unités `dvh`/`svh`/`lvh``                                                              |
-| Sélecteurs              | `:is()`, `:where()`, `:has()`, sélecteurs de sous-grille                               |
-| ...                     | ...                                                                                    |
+Pistes :
+
+- Mise en page : Container Queries (`@container`), Subgrid, `:has()`, `text-wrap: balance`
+- Couleurs & thèmes : `color-mix()`, espaces colorimétriques (`oklch`, `lab`), `light-dark()`
+- Architecture CSS : `@scope`, `@property`
+- Animation & interaction : Scroll-driven animations, `@starting-style`, transitions de vue (View Transitions API),
+- Positionnement : Anchor Positioning (`anchor()`, `position-anchor`), `popover`
+- Unités & fonctions : unités `dvh`/`svh`/`lvh`,
+- Houdini API, canvas in HTML,
+- Condition, fonctions...
 
 Pour chaque fonctionnalité, indiquez vos sources (documentation officielle, spec W3C/WHATWG, articles).
 
