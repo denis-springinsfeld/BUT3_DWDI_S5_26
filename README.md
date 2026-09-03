@@ -88,5 +88,5 @@ Critère
 - [Chrome for Developers — nouveautés CSS](https://developer.chrome.com/blog)
 - [web.dev — CSS](https://web.dev/learn/css)
 - Baseline (indicateur de support consolidé multi-navigateurs) sur MDN
-- [https://2026.stateofcss.com/en-US](State of CSS 2026) — pour voir les tendances et l'adoption des nouvelles fonctionnalités.
+- [State of CSS 2026](https://2026.stateofcss.com/en-US) — pour voir les tendances et l'adoption des nouvelles fonctionnalités.
 - web ...
