@@ -1,92 +1,80 @@
-# BUT3 MMI — Parcours WDI S5 2026
+# Front-end Style Guide
 
-## Sujet de projet : "Ce que le prof ne vous a pas dit !" — Les nouvelles fonctionnalités CSS
+![Deskto](./Screen/desktop-preview.jpg/)
 
-**Débusquez-vous des fonctionnalités que même votre prof ne connaît pas encore !?**
+Projet React JS
 
----
+## Colors
 
-### Contexte
+### Primary
 
-CSS évolue vite. Entre les _container queries_, `:has()`, l'imbrication native, les _cascade layers_, `color-mix()`, le _scroll-driven animation_ ou encore l'_anchor positioning_, le langage a beaucoup changé ces trois dernières années — bien plus que ce qui a pu être vu en cours.
+- Lime Green: hsl(163, 72%, 41%)
+- Bright Red: hsl(356, 69%, 56%)
 
-Votre mission : **construire une page web de référence** ("cheat sheet" interactive) qui recense les nouvelles fonctionnalités CSS, avec pour chacune :
+- Facebook: hsl(208, 92%, 53%)
+- Twitter: hsl(203, 89%, 53%)
+- Instagram: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%)
+- YouTube: hsl(348, 97%, 39%)
 
-- une explication claire (à quoi ça sert, quel problème ça résout),
-- un exemple de code **et** une démonstration visuelle fonctionnelle,
-- un tableau de compatibilité navigateurs,
-- une solution de repli (_fallback_) ou une astuce de _progressive enhancement_ si la fonctionnalité n'est pas supportée partout.
+#### Dark Theme
 
----
+- Toggle: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%)
 
-### Travail demandé
+#### Light Theme
 
-#### 1. Recherche (veille)
+- Toggle: hsl(230, 22%, 74%)
 
-Recensez **au minimum 10 fonctionnalités CSS récentes et méconnues**. Quelques pistes pour démarrer votre veille — à vous de trouver les plus pertinentes et intéressantes :
+### Neutral
 
-Pistes :
+#### Dark Theme
 
-- Mise en page : Container Queries (`@container`), Subgrid, `:has()`, `text-wrap: balance`
-- Couleurs & thèmes : `color-mix()`, espaces colorimétriques (`oklch`, `lab`), `light-dark()`
-- Architecture CSS : `@scope`, `@property`
-- Animation & interaction : Scroll-driven animations, `@starting-style`, transitions de vue (View Transitions API),
-- Positionnement : Anchor Positioning (`anchor()`, `position-anchor`), `popover`
-- Unités & fonctions : unités `dvh`/`svh`/`lvh`,
-- Houdini API, canvas in HTML,
-- Condition, fonctions...
+- Very Dark Blue (BG): hsl(230, 17%, 14%)
+- Very Dark Blue (Top BG Pattern): hsl(232, 19%, 15%)
+- Dark Desaturated Blue (Card BG): hsl(228, 28%, 20%)
+- Desaturated Blue (Text): hsl(228, 34%, 66%)
+- White (Text): hsl(0, 0%, 100%)
 
-Pour chaque fonctionnalité, indiquez vos sources (documentation officielle, spec W3C/WHATWG, articles).
+#### Light Theme
 
-#### 2. Réalisation de la page web
+- White (BG): hsl(0, 0%, 100%)
+- Very Pale Blue (Top BG Pattern): hsl(225, 100%, 98%)
+- Light Grayish Blue (Card BG): hsl(227, 47%, 96%)
+- Dark Grayish Blue (Text): hsl(228, 12%, 44%)
+- Very Dark Blue (Text): hsl(230, 17%, 14%)
 
-La page doit être **codée en HTML / CSS / JS**
+## Typography
 
-1. **Une page d'accueil / sommaire** avec navigation vers chaque fiche fonctionnalité (ancre ou menu).
-2. **Une fiche par fonctionnalité**, structurée ainsi :
-   - Nom de la propriété/fonction CSS et date d'introduction approximative.
-   - Explication en français, claire et synthétique (5–10 lignes).
-   - Un bloc de code (utilisez `<pre><code>`) montrant la syntaxe.
-   - **Une démo live** : la fonctionnalité doit être visible et testée en vrai dans la page (pas juste une capture d'écran).
-   - Un tableau de compatibilité (navigateur / version minimale / support partiel ou total). Vous pouvez vous appuyer sur les données de [Can I Use](https://caniuse.com) ou du [MDN Browser Compatibility Data].
-   - Une note sur le _fallback_ : que se passe-t-il si le navigateur ne supporte pas la fonctionnalité ? Comment sécuriser l'affichage (`@supports`, valeurs de repli, etc.) ?
+### Body Copy
 
----
+- Font size (Overview Card Headings): 14px
 
-### Livrables
+### Font
 
-- Le code source complet (dépôt Git : lien à fournir).
-- La page déployée et accessible en ligne (GitHub Pages).
-- Un court README expliquant vos choix techniques et vos éventuelles limites/bugs connus.
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 700
 
----
+## Data
 
-### Modalités
+### Total par plateforme
 
-- **Travail** : individuel ou en binôme.
-- **Durée indicative** : 2 séances de TP + travail personnel.
-- **Format de rendu** : dépôt du lien du repo + lien de la page en ligne sur la plateforme du cours.
+| Plateforme | Utilisateur  |  Total | Aujourd'hui |
+| ---------- | ------------ | -----: | ----------: |
+| Facebook   | @nathanf     |  1 987 |         +12 |
+| Twitter    | @nathanf     |  1 044 |         -99 |
+| Instagram  | @realnathanf | 11 283 |      +1 099 |
+| YouTube    | Nathan F.    |  8 239 |        -144 |
 
----
+### Statistiques du jour
 
-### Grille d'évaluation indicative
+| Plateforme | Indicateur    | Montant | Pourcentage |
+| ---------- | ------------- | ------: | ----------: |
+| Facebook   | Page views    |      87 |         +3% |
+| Facebook   | Likes         |      52 |         -2% |
+| Instagram  | Likes         |   5 462 |     +2 257% |
+| Instagram  | Profile views |  52 366 |     +1 375% |
+| Twitter    | Retweets      |     117 |       +303% |
+| Twitter    | Likes         |     507 |       +553% |
+| YouTube    | Likes         |     107 |        -19% |
+| YouTube    | Total views   |   1 407 |        -12% |
 
-Critère
-
-- Pertinence et diversité des fonctionnalités choisies (≥10, variées)
-- Qualité des explications (clarté, justesse technique)
-- Démos fonctionnelles et code exemple propre
-- Tableaux de compatibilité navigateurs (exactitude, sourcing)
-- Gestion des fallbacks / `@supports`
-- Qualité du HTML/CSS (sémantique, responsive, accessibilité)
-- Bonus : filtre/recherche JS, design soigné, originalité
-
-### Pour bien démarrer
-
-- [MDN Web Docs — CSS](https://developer.mozilla.org/fr/docs/Web/CSS)
-- [Can I Use](https://caniuse.com)
-- [Chrome for Developers — nouveautés CSS](https://developer.chrome.com/blog)
-- [web.dev — CSS](https://web.dev/learn/css)
-- Baseline (indicateur de support consolidé multi-navigateurs) sur MDN
-- [State of CSS 2026](https://2026.stateofcss.com/en-US) — pour voir les tendances et l'adoption des nouvelles fonctionnalités.
-- web ...
+**Total général : 23 004**
