@@ -580,9 +580,7 @@ export const autoPalette = stylex.defineVars({
 
 ---
 
-## Rendu et vérification
-
-Avant de rendre votre travail, vérifiez que :
+## Vérification
 
 - [ ] `npx tsc -b` ne signale aucune erreur ;
 - [ ] `npm run lint` ne signale aucune erreur ;
