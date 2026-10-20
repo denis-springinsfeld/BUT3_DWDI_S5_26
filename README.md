@@ -12,7 +12,12 @@
 > - Utiliser `initial`, `animate` et `transition`.
 > - Définir des `variants` pour séparer la logique du design.
 
+https://github.com/user-attachments/assets/da391726-058c-4db5-b4cc-aa200d61a86f
+
 ### Installation
+
+
+
 
 ```bash
 npm install motion
